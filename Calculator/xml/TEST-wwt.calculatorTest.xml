@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="2" hostname="DESKTOP-U6HTQGI" name="wwt.calculatorTest" skipped="0" tests="10" time="0.119" timestamp="2022-05-10T09:01:35">
+  <properties>
+    <property name="ant.library.dir" value="C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib" />
+    <property name="run.classpath" value="bin" />
+    <property name="java.specification.version" value="16" />
+    <property name="ant.project.name" value="project" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="java.class.path" value="C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-antlr.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-apache-bcel.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-apache-bsf.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-apache-log4j.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-apache-oro.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-apache-regexp.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-apache-resolver.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-apache-xalan2.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-commons-logging.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-commons-net.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-imageio.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-jai.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-javamail.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-jdepend.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-jmf.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-jsch.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-junit.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-junit4.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-junitlauncher.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-launcher.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-netrexx.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-swing.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-testutil.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-xz.jar;C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant.jar;C:\Program Files\apache-ant\apache-ant-1.10.12\;C:\software\eclipse\configuration\org.eclipse.osgi\62\0\.cp\lib\antdebug.jar;C:\software\eclipse\configuration\org.eclipse.osgi\62\0\.cp\lib\remote.jar;C:\software\eclipse\configuration\org.eclipse.osgi\63\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_171\lib\tools.jar;C:\software\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.117.0.v20210906-0842.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="ant.file.type.project" value="file" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java.vm.specification.version" value="16" />
+    <property name="test.report" value="report" />
+    <property name="user.country" value="CN" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="C:\software\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1652173292526 -Declipse.connect.port=62087 -Dant.home=C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile D:\work\rjcs\YX\Calculator\build.xml" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\wx" />
+    <property name="user.language" value="zh" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2021-07-20" />
+    <property name="java.home" value="C:\software\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre" />
+    <property name="test.xml" value="xml" />
+    <property name="basedir" value="D:\work\rjcs\YX\Calculator" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="16" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.script" value="" />
+    <property name="run.srcpath" value="src" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="16.0.2+7-67" />
+    <property name="user.name" value="wx" />
+    <property name="ant.file" value="D:\work\rjcs\YX\Calculator\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="file.encoding" value="GBK" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant.jar" />
+    <property name="ant.file.project" value="D:\work\rjcs\YX\Calculator\build.xml" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="test.srcpath" value="test" />
+    <property name="java.io.tmpdir" value="C:\Users\wx\AppData\Local\Temp\" />
+    <property name="java.version" value="16.0.2" />
+    <property name="user.dir" value="D:\work\rjcs\YX\Calculator" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\software\eclipse\plugins\org.apache.ant_1.10.11.v20210720-1445" />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.11 compiled on July 10 2021" />
+    <property name="java.library.path" value="C:\software\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\software\VMware\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\CUPTI\libx64;C:\Program Files\Go\bin;C:\software\Git\cmd;C:\Program Files\apache-tomcat\apache-tomcat-9.0.62;C:\Program Files\apache-tomcat\apache-tomcat-8.5.78;C:\Program Files\apache-tomcat\apache-tomcat-10.0.20\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\apache-ant\apache-ant-1.10.12\bin;C:\Program Files\apache-maven\apache-maven-3.8.5\bin;C:\Users\wx\anaconda3;C:\Users\wx\anaconda3\Library\mingw-w64\bin;C:\Users\wx\anaconda3\Library\usr\bin;C:\Users\wx\anaconda3\Library\bin;C:\Users\wx\anaconda3\Scripts;C:\Users\wx\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\wx\AppData\Local\Programs\Python\Python39\;anaconda3;anaconda3\Library\mingw-w64\bin;anaconda3\Library\usr\bin;anaconda3\Library\bin;anaconda3\Scripts;Python 3.9\Scripts\;Python 3.9\;C:\Users\wx\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\GoLand 2020.2.4\bin;;C:\software\PyCharm Community Edition 2021.2.2\bin;;Microsoft VS Code\bin;C:\software\Microsoft VS Code\bin;.;C:\software\eclipse\configuration\org.eclipse.osgi\341\0\.cp" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.version" value="16.0.2+7-67" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="60.0" />
+    <property name="ant.project.default-target" value="test" />
+  </properties>
+  <testcase classname="wwt.calculatorTest" name="testSquare" time="0.002" />
+  <testcase classname="wwt.calculatorTest" name="testSquareRoot" time="0.022">
+    <error message="test timed out after 10 milliseconds" type="java.lang.Exception">java.lang.Exception: test timed out after 10 milliseconds
+	at wwt.calculator.squareRoot(Unknown Source)
+	at wwt.calculatorTest.testSquareRoot(Unknown Source)
+	at java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base@16.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</error>
+  </testcase>
+  <testcase classname="wwt.calculatorTest" name="testClear" time="0.0" />
+  <testcase classname="wwt.calculatorTest" name="testMultiply" time="0.002">
+    <failure message="expected:&lt;20&gt; but was:&lt;10&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;20&gt; but was:&lt;10&gt;
+	at wwt.calculatorTest.testMultiply(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:39)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:461)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:143)
+</failure>
+  </testcase>
+  <testcase classname="wwt.calculatorTest" name="testAdd" time="0.001" />
+  <testcase classname="wwt.calculatorTest" name="testAdd1" time="0.0" />
+  <testcase classname="wwt.calculatorTest" name="testDivide1" time="0.0" />
+  <testcase classname="wwt.calculatorTest" name="testDivide" time="0.0" />
+  <testcase classname="wwt.calculatorTest" name="testSubstract" time="0.001">
+    <failure message="expected:&lt;8&gt; but was:&lt;9&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;8&gt; but was:&lt;9&gt;
+	at wwt.calculatorTest.testSubstract(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:39)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:461)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:143)
+</failure>
+  </testcase>
+  <testcase classname="wwt.calculatorTest" name="testGetResult" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
